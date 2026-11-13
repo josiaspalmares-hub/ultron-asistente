@@ -1,0 +1,25 @@
+# Librerías de Ultron (probado con Python 3.12 en Windows).
+# Instalar:  py -3.12 -m venv .venv  y luego  .venv\Scripts\python -m pip install -r requirements.txt
+python-dotenv
+cryptography
+google-genai
+numpy
+pyautogui
+psutil
+pywebview
+pystray
+Pillow
+gTTS
+playsound==1.2.2
+SpeechRecognition
+sounddevice
+pyTelegramBotAPI
+playwright
+WMI
+pywin32
+customtkinter
+# Opcionales (el código funciona sin ellas)
+pywinstyles
+edge-tts
+pyttsx3
+wakeonlan

@@ -1,0 +1,4 @@
+# Las habilidades se verifican por SHA-256: git no debe cambiar sus fines de línea
+skills_seguras_ultron/** -text
+# El respaldo cifrado de la bóveda es binario: sin conversión de líneas ni diff de texto
+respaldo/*.enc -text -diff

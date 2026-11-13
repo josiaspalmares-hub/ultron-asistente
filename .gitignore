@@ -1,0 +1,39 @@
+# --- Credenciales (NUNCA al repositorio) ---
+.env
+*.env
+.env.*
+
+# --- Capturas de pantalla y renders ---
+capturas/
+captura_*.png
+captura_remota_*.png
+render_web.png
+
+# --- Bóveda de memoria (diarios, wiki e índice del RAG) ---
+boveda/
+.indice_rag.pkl
+.indice_rag.json
+
+# --- Logs y cachés generados por Ultron ---
+logs/
+*.log
+cache_voz/
+temp_*
+*.part
+reporte_auditoria_seguridad.txt
+
+# --- Temporales de Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Editores ---
+.vscode/
+.idea/
+# --- Restauración temporal de la bóveda (se revisa y se copia a mano) ---
+boveda_restaurada/
+
+# --- Solo en la PC del dueño (nunca en el repositorio público) ---
+skills_seguras_ultron/
+respaldo/
